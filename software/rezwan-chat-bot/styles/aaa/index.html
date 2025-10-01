@@ -1,0 +1,63 @@
+নিচে Vue.js ব্যবহার করে একটি if-else কন্ডিশন প্রোগ্রাম দেখানো হলো। এতে ব্যবহারকারী একটি সংখ্যা ইনপুট দিলে তা "বিজোড়" না "জোড়" তা নির্ধারণ করে দেখানো হয়।
+
+
+---
+
+Vue.js দিয়ে if-else কন্ডিশন প্রোগ্রাম (CDN সহ)
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue JS If-Else</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+
+  <div id="app">
+    <h2>সংখ্যা জোড় না বিজোড় পরীক্ষা করুন</h2>
+    
+    <input type="number" v-model.number="number" placeholder="একটি সংখ্যা লিখুন">
+    <button @click="checkEvendd">পরীক্ষা করুন</button>
+
+    <p v-if="result !== ''">ফলাফল: {{ result }}</p>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        number: "",
+        result:'' , 
+      },
+      methods: {
+        checkEvendd(number,result) {
+          if (number % 2 === 0) {
+            result = 'এই সংখ্যা জোড়';
+          } else {
+            result = 'এই সংখ্যা বিজোড়';
+          }
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+
+---
+
+ব্যাখ্যা:
+
+v-model.number="number" ইনপুট সংখ্যা রাখছে।
+
+checkEvenOdd() মেথডে if-else কন্ডিশনের মাধ্যমে সংখ্যা জোড় না বিজোড় তা নির্ধারণ করা হচ্ছে।
+
+v-if দিয়ে কন্ডিশন চেক করে রেজাল্ট দেখানো হচ্ছে।
+
+
+
+---
+
+প্রয়োজনে আপনি চাইলে অন্য if-else উদাহরণ যেমন: বয়স যাচাই, নম্বর অনুযায়ী গ্রেড ইত্যাদি চাইতে পারেন। জানালে আমি করে দেব।
+

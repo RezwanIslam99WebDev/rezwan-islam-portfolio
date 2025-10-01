@@ -1,0 +1,612 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    /* margin: 0px; */
+}
+
+/* body {
+    display: block;
+} */
+
+/* Banner style in header */
+
+.header {
+    background-image: url('../images/Banner Image.png');
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    height: 600px;
+    /* margin: 50px 140px 0px 140px; */
+}
+
+.banner {
+    padding: 200px 300px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 250px;
+    border-radius: 16px;
+}
+
+.banner-greeting {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900px;
+    margin-top: 10px;
+    margin-bottom: 380px;
+}
+
+/* Discount offer section style */
+
+.section1-discount {
+    display: block;
+    max-width: 100%;
+}
+
+.discount-title-1 {
+    color: #F00;
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 450px 0px 450px;
+}
+
+.discount-title-2 {
+    color: #F00;
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 450px 0px 450px;
+}
+
+.categories {
+    color: #070211;
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 450px 0px 450px;
+}
+
+.discount-section-images {
+    width: 800px;
+    height: 500px;
+    margin: 48px 250px 0px 250px;
+}
+
+/* Welcome to midnight party section style */
+
+.section2-welcome-midnight-party-banner {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    border-radius: 20px;
+    height: 600px;
+    margin-top: 120px;
+}
+
+.party-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 68px 138px 67px 126px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.party-banner {
+    display: block;
+    flex-basis: 650px;
+    padding: 125px auto;
+}
+
+.party-banner-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+    margin-bottom: 0px;
+}
+
+.party-banner-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.party-banner-button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    margin-top: 48px;
+}
+
+.party-banner-images {
+    width: 319.83px;
+    height: 464.662px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+/* Party-information style*/
+
+.section3-party-information {
+    width: 1320px;
+    height: auto;
+    margin-top: 120px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+section div span {
+    color: #F00;
+}
+
+.party-information-container {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+
+.party-information-button {
+    border: none;
+    border-radius: 10px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
+
+/* New Best offer section style */
+
+.section4 {
+    display: flex;
+    width: 1320px;
+    height: 438px;
+    background-color: #FFF;
+    border-radius: 15px;
+    margin-top: 90px;
+    /* margin-bottom: 120px; */
+    /* flex-wrap: wrap; */
+}
+
+.new-best-offer {
+    width: auto;
+    padding: 85px 70px 85px 20px;
+}
+
+.best-offer-greeting {
+    width: 207px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* padding: 104px 0px 0px 0px; */
+}
+
+.best-offer-title {
+    width: 328px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.best-offer-description {
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+.best-offer-images {
+    width: 436px;
+    height: 436px;
+    border: 15px solid #F00;
+    border-radius: 463px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.best-offer-images>img {
+    width: 400px;
+    height: 420px;
+    border-radius: 364.844px;
+    padding: 40px;
+    margin-bottom: 0px;
+}
+
+.best-offer-date {
+    margin-top: 0px;
+    padding-left: 118px;
+    padding-top: 50px;
+}
+
+.best-offer-date-title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer-date-description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 276px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -30px;
+}
+
+.best-offer-date-images {
+    width: 140px;
+    height: 140px;
+    margin-top: 0px;
+}
+
+/* WHAT IS FUNCTIONAL section style */
+
+.section5-what-is-functional {
+    width: 1320px;
+    height: auto;
+}
+
+.what-is-functional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.what-is-functional h2 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.what-is-functional h1 span {
+    color: #F00;
+}
+
+.what-is-functional h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.what-is-functional p {
+    width: 880px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.what-is-functional-images {
+    background-image: url('../images/Rectangle 2.png');
+    background-size: 1320px 160px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    fill: radial-gradient(49.96% 50% at 50% 50.23%, #3f0606 0%, #4e1919 100%);
+    opacity: 0.9;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+}
+
+.background-images {
+    background-image: url('../images/Rectangle 1.png');
+    background-size: 429px 340px;
+    background-repeat: no-repeat;
+    background-position: right 5px bottom 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images1 {
+    width: 500px;
+    height: 500px;
+}
+
+.images2 {
+    width: 200px;
+    height: 200px;
+    margin: 0px 330px 150px 0px;
+}
+
+/* Section 6 THE BEST GIFTS part style */
+
+.section6-the-best-gifts {
+    margin-top: 90px;
+
+}
+
+.text-container {
+    margin-left: 19px;
+}
+
+.section6-the-best-gifts .title1 {
+    width: 192px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section6-the-best-gifts .title2 {
+    color: #070211;
+    width: 566px;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.section6-the-best-gifts .description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+
+.images-container {
+    width: 1320px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.images-container img {
+    width: 424px;
+    height: 450px;
+    background-color: #FFF;
+    margin: 0px 10px 10px 0px;
+}
+
+/* Subscribe Newsletter section style */
+
+.section7-subscribe-newsletter {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(223, 10, 10, 0.719);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 117px;
+}
+
+.section7-subscribe-newsletter img {
+    width: 150px;
+    height: 150px;
+}
+
+.section7-subscribe-newsletter h1 {
+    color: #070211;
+    /* text-align: center; */
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section7-subscribe-newsletter p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-text {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    font-size: 30px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+}
+
+.input-button {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+}
+
+.input-text::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Footer style */
+
+footer {
+    width: 1320px;
+    height: 609px;
+    background: #070211;
+    margin-top: 60px;
+    border-radius: 15px;
+
+}
+
+#footer-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>div>p {
+    width: 375px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 120px 0px 0px 140px;
+}
+
+#footer-p-container {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 100px 260px 0px 0px;
+}
+
+.footer-logo-images {
+    width: 24px;
+    height: 24px;
+}
+
+#p2 {
+    margin-top: -30px;
+}
+
+.footer-hr {
+    width: 1200px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-images {
+    text-align: center;
+}
+
+.footer-images img {
+    width: 64px;
+    height: 64px;
+    margin: 18px;
+}
+
+.footer-copy-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 140px 0px 140px;
+}
+
+.footer-copy-right small {
+    /* width: 295px; */
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-copy-right small {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+}
+
+/* slack,
+zoom,
+shortcut,
+git, */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA Calculator</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <main>
+    <div class="rezwan">
+    <h1>Made by Rezwan Islam</h1>
+    <h1>GPA Calculator</h1>
+    </div>
+
+    <!-- Input Form -->
+    <div>
+      <input type="number" id="english" placeholder="Enter English Marks"><br>
+      <input type="number" id="bangla" placeholder="Enter Bangla Marks"><br>
+      <input type="number" id="math" placeholder="Enter Math Marks"><br>
+      <input type="number" id="physics" placeholder="Enter Physics Marks"><br>
+      <input type="number" id="chemistry" placeholder="Enter Chemistry Marks"><br>
+      <button onclick="calculateGPA()">Calculate GPA</button>
+    </div>
+
+    <br>
+    <!-- Results -->
+    <div class="container">
+      <h2 id="english-marks"></h2>
+      <h2 id="english-grade"></h2>
+      <h3 id="english-grade-point"></h3>
+    </div>
+
+    <div class="container">
+      <h2 id="bangla-marks"></h2>
+      <h2 id="bangla-grade"></h2>
+      <h3 id="bangla-grade-point"></h3>
+    </div>
+
+    <div class="container">
+      <h2 id="math-marks"></h2>
+      <h2 id="math-grade"></h2>
+      <h3 id="math-grade-point"></h3>
+    </div>
+
+    <div class="container">
+      <h2 id="physics-marks"></h2>
+      <h2 id="physics-grade"></h2>
+      <h3 id="physics-grade-point"></h3>
+    </div>
+
+    <div class="container">
+      <h2 id="chemistry-marks"></h2>
+      <h2 id="chemistry-grade"></h2>
+      <h3 id="chemistry-grade-point"></h3>
+    </div>
+
+    <br>
+    <!-- Final Result -->
+    <h1 id="gpa"></h1>
+    <h1 id="grade"></h1>
+    <h1 id="comment"></h1>
+  </main>
+
+  <!-- External JavaScript Link -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>

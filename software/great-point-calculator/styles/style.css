@@ -1,0 +1,30 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+.rezwan{
+      background-color: antiquewhite;
+}
+    .container {
+      margin: 15px auto;
+          background-color: paleturquoise;
+      padding: 15px;
+      border: 1px solid #ddd;
+      width: 350px;
+      border-radius: 10px;
+    }
+    input {
+      padding: 8px;
+      width: 200px;
+      margin: 8px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    h1, h2, h3 {
+      margin: 8px 0;
+    }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Sorter</title>
+</head>
+<body>
+  <h1>Made by Rezwan Islam</h1>
+  <h2>Sort Numbers (Ascending & Descending)</h2>
+
+  <label>Enter numbers (comma separated):</label><br>
+  <input type="text" id="numbersInput" placeholder="e.g. 45,12,78,5,34">
+  <button onclick="sortNumbers()">Sort</button>
+
+  <h3>Result:</h3>
+  <p id="ascending"></p>
+  <p id="descending"></p>
+
+  <script>
+    function sortNumbers() {
+      let input = document.getElementById("numbersInput").value;
+      
+      // ইনপুট থেকে সংখ্যাগুলো Array বানানো
+      let numbers = input.split(",").map(num => parseFloat(num.trim()));
+
+      // Ascending (ছোট থেকে বড়)
+      let ascending = [...numbers].sort((a, b) => a - b);
+
+      // Descending (বড় থেকে ছোট)
+      let descending = [...numbers].sort((a, b) => b - a);
+
+      // রেজাল্ট দেখানো
+      document.getElementById("ascending").innerText = "Ascending Order: " + ascending.join(", ");
+      document.getElementById("descending").innerText = "Descending Order: " + descending.join(", ");
+    }
+  </script>
+</body>
+</html>

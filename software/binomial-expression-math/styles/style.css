@@ -1,0 +1,44 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 20px; 
+  background-color: #f4f4f4;
+}
+.rezwan{
+  background: black;
+}
+.box {
+  padding: 15px;
+  background-color: purple;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.box input, .box select, .box button {
+  margin: 5px 0;
+  padding: 6px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.box button {
+  background: #fff;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box button:hover {
+  background: #ddd;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
